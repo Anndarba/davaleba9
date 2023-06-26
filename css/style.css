@@ -1,0 +1,108 @@
+body{
+    font-family: Helvetica;
+}
+.geolab{
+    margin-top: 24px;
+    margin-left: 99px;
+}
+header{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+ul{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 33px;
+}
+li{
+    margin-right: 50px;
+}
+a{
+    font-family: Helvetica;
+    color: #636060;
+    font-size: 17px;
+}
+h1{
+    color: #FFF;
+    font-size: 79px;
+    font-family: Helvetica;
+    font-weight: 700;
+}
+.meore > h3{
+    color: #FFF;
+    font-size: 19px;
+    font-family: Helvetica;
+}
+h1, .h-1{
+    display: flex;
+    justify-content: center;
+}
+.background{
+    position: relative;
+    top: 31px;
+    background-size: cover;
+    background-image: url(../fot.png);
+}
+.div-1{
+    margin-top: 238px;
+}
+.h-1{
+    margin-top: 31px;
+}
+.meore{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    width: 235px;
+    margin-right: 83px;
+    color: #636060;
+    font-family: Helvetica;
+    margin-top: 84px;
+    margin-left: 270px;
+}
+.title > h3{
+    color: #010101;
+    font-size: 28px;
+}
+.title > span{
+    font-size: 17px;
+}
+.title > p{
+    font-size: 20px;
+}
+.cards{
+    display: flex;
+    width: 930px;
+    flex-wrap: wrap;
+    margin-left: 230px;
+}
+
+.cards > div{
+    margin-top: 84px;
+    margin-right: 23px;
+    width: 286px;
+}
+.card{
+    color: #343232;
+    font-size: 19px;
+    font-family: Helvetica;
+}
+.card > h3{
+    margin-top: 23px;
+}
+.card > p{
+    margin-top: 9px;
+}
